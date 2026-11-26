@@ -384,5 +384,33 @@
       "text": "He contado un párrafo que gira mucho sobre «but». ¿Te lo señalo? | He contado {count} párrafos que giran mucho sobre «but». ¿Te los señalo?",
       "emotion": "thinking"
     }
+  ],
+  "offer.snapshot": [
+    {
+      "text": "Un buen rato revisando y ninguna instantánea todavía. ¿Guardo una en la despensa?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Unos {minutes} minutos retocando. Una instantánea mantendría esta versión a salvo todo el invierno.",
+      "emotion": "content"
+    },
+    {
+      "text": "¿Quieres una instantánea antes de seguir? La entierro donde la vuelvas a encontrar.",
+      "emotion": "happy"
+    }
+  ],
+  "offer.bible": [
+    {
+      "text": "{title} otra vez. ¿Te lo desentierro?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Has abierto {title} {count} veces. ¿Quieres que lo busque en el proyecto?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Ese nombre no deja de volver. ¿Voy a buscarlo?",
+      "emotion": "neutral"
+    }
   ]
 }

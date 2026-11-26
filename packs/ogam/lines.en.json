@@ -384,5 +384,33 @@
       "text": "A paragraph turning on “but” often: one place. Shall I point it out? | A paragraph turning on “but” often: {count} places. Shall I point them out?",
       "emotion": "thinking"
     }
+  ],
+  "offer.snapshot": [
+    {
+      "text": "A good while of revising. Shall I keep a snapshot? One click.",
+      "emotion": "content"
+    },
+    {
+      "text": "About {minutes} minutes of reworking, nothing kept yet. I can keep a snapshot.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Before the next change, a snapshot, if you like. This version would stay as it is.",
+      "emotion": "neutral"
+    }
+  ],
+  "offer.bible": [
+    {
+      "text": "{title} again. Shall I look it up?",
+      "emotion": "curious"
+    },
+    {
+      "text": "You've opened {title} {count} times. Want me to search the project for it?",
+      "emotion": "curious"
+    },
+    {
+      "text": "A name that keeps returning. Shall I look it up?",
+      "emotion": "thinking"
+    }
   ]
 }

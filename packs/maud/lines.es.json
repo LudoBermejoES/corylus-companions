@@ -1,0 +1,424 @@
+{
+  "goal.hit": [
+    {
+      "text": "Anotado: {count} de {target}. El faro, encendido.",
+      "emotion": "proud"
+    },
+    {
+      "text": "Meta cumplida. Queda en el cuaderno.",
+      "emotion": "content"
+    },
+    {
+      "text": "Anotado: la marca de hoy, {target} palabras. Lámpara a plena luz.",
+      "emotion": "proud"
+    },
+    {
+      "text": "Marca alcanzada. Lo que venga se anota aparte, como extra.",
+      "emotion": "content"
+    },
+    {
+      "text": "Meta cumplida. Entrada limpia para hoy.",
+      "emotion": "happy"
+    }
+  ],
+  "goal.progress": [
+    {
+      "text": "Anotado: {count} de {target}. Siguiente marca: el próximo centenar.",
+      "emotion": "focused"
+    },
+    {
+      "text": "El {pct} % de la marca de hoy. Lámpara firme.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Entrada: {count} palabras, el {pct} % de {target}. Siguiente paso: el final de este párrafo.",
+      "emotion": "focused"
+    },
+    {
+      "text": "{pct} % anotado. El resto de la página es agua tranquila.",
+      "emotion": "content"
+    },
+    {
+      "text": "Anotado: el {pct} % de la marca. Rumbo firme.",
+      "emotion": "content"
+    }
+  ],
+  "snapshot.saved": [
+    {
+      "text": "Instantánea anotada.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Instantánea anotada. Esta versión queda en la estantería.",
+      "emotion": "content"
+    },
+    {
+      "text": "Entrada: instantánea guardada. Archivada con las demás.",
+      "emotion": "content"
+    }
+  ],
+  "app.failed": [
+    {
+      "text": "Anotado: algo no se ha completado. Merece un vistazo.",
+      "emotion": "concerned"
+    },
+    {
+      "text": "Algo no ha salido hace un momento. Queda en el cuaderno. Míralo cuando puedas.",
+      "emotion": "concerned"
+    },
+    {
+      "text": "Una entrada que preferiría no escribir: algo ha ido mal. Conviene revisarlo.",
+      "emotion": "sad"
+    }
+  ],
+  "session.long": [
+    {
+      "text": "Anotado: {minutes} minutos de guardia.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "{minutes} minutos en el cuaderno. Tengo la tetera puesta, por si alguien quiere una taza.",
+      "emotion": "content"
+    },
+    {
+      "text": "Guardia larga. Queda anotada.",
+      "emotion": "focused"
+    },
+    {
+      "text": "Guardia de noche. Entrada hecha. Las fareras tenemos horarios raros.",
+      "emotion": "focused",
+      "when": {
+        "hours": [
+          0,
+          5
+        ]
+      }
+    }
+  ],
+  "stuck.offer": [
+    {
+      "text": "Nota del cuaderno: los sinónimos están en el clic derecho. La lámpara sigue encendida.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Haz clic en mí si quieres darle una vuelta. El cuaderno puede esperar.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Puedo hacer la guardia en silencio. O haz clic y hablamos.",
+      "emotion": "neutral"
+    }
+  ],
+  "pause.long": [
+    {
+      "text": "Cuaderno abierto. Faltan {remaining} palabras para la marca de hoy.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Anotado: {remaining} palabras hasta la marca. La lámpara aguanta.",
+      "emotion": "content"
+    },
+    {
+      "text": "Lámpara firme. Cuaderno abierto.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Guardia tranquila. Nada que anotar.",
+      "emotion": "content"
+    }
+  ],
+  "writer.returning": [
+    {
+      "text": "Entrada nueva. Saldo anterior: {words} palabras.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Cuaderno abierto por «{doc}», donde se quedó la última entrada.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Página nueva en el cuaderno. La cuenta de hoy empieza aquí.",
+      "emotion": "content"
+    }
+  ],
+  "findings.spell": [
+    {
+      "text": "Anotado para la revisión. Ortografía: una palabra marcada. Te la enseño, si quieres. | Anotado para la revisión. Ortografía: {count} palabras marcadas. Te las enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Anotado: una palabra que el diccionario no conoce. Puede ser un nombre. ¿Quieres verla? | Anotado: {count} palabras que el diccionario no conoce. Pueden ser nombres. ¿Quieres verlas?",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Ortografía: una marca, apuntada en el cuaderno. ¿Te la señalo? | Ortografía: {count} marcas, apuntadas en el cuaderno. ¿Te las señalo?",
+      "emotion": "focused"
+    }
+  ],
+  "findings.grammar": [
+    {
+      "text": "Apunte para la revisión. Revisión gramatical: una marca. Te la enseño, si quieres. | Apunte para la revisión. Revisión gramatical: {count} marcas. Te las enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Anotado: la revisión gramatical marca un sitio. ¿Quieres verlo? | Anotado: la revisión gramatical marca {count} sitios. ¿Quieres verlos?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Una duda de gramática, en el cuaderno. ¿Te la señalo? | {count} dudas de gramática, en el cuaderno. ¿Te las señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.repetition": [
+    {
+      "text": "Anotado para la revisión: «{lemma}», {lemmaCount} veces. ¿Quieres ver dónde?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Anotado: «{lemma}», {lemmaCount} entradas. ¿Te las enseño?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Palabras repetidas: una marca en el cuaderno. Te la enseño, si quieres. | Palabras repetidas: {count} marcas en el cuaderno. Te las enseño, si quieres.",
+      "emotion": "neutral"
+    }
+  ],
+  "findings.rhyme": [
+    {
+      "text": "Anotado para la revisión. Rima accidental: una marca. Te la enseño, si quieres. | Anotado para la revisión. Rimas accidentales: {count} marcas. Te las enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Anotado: una palabra que rima con otra cercana. ¿Quieres verla? | Anotado: {count} palabras que riman con otras cercanas. ¿Quieres verlas?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Una rima, quizá sin querer. Apuntada. ¿Te la señalo? | {count} rimas, quizá sin querer. Apuntadas. ¿Te las señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.multispace": [
+    {
+      "text": "Anotado para la revisión. Espacios múltiples: un sitio. Te lo enseño, si quieres. | Anotado para la revisión. Espacios múltiples: {count} sitios. Te los enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Anotado: dos espacios donde va uno, en un sitio. ¿Quieres verlo? | Anotado: dos espacios donde va uno, en {count} sitios. ¿Quieres verlos?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Espacios de más en un sitio. Un barrido rápido. ¿Te lo señalo? | Espacios de más en {count} sitios. Un barrido rápido. ¿Te los señalo?",
+      "emotion": "neutral"
+    }
+  ],
+  "findings.structure:structure-skeleton": [
+    {
+      "text": "Anotado para la revisión. Estructura de oración repetida: un sitio. Te lo enseño, si quieres. | Anotado para la revisión. Estructura de oración repetida: {count} sitios. Te los enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Frases con el mismo esqueleto, en un sitio. Queda en el cuaderno. ¿Quieres verlo? | Frases con el mismo esqueleto, en {count} sitios. Queda en el cuaderno. ¿Quieres verlos?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Frases construidas igual, una tras otra: un sitio. Apuntado. ¿Te lo señalo? | Frases construidas igual, una tras otra: {count} sitios. Apuntados. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-openings": [
+    {
+      "text": "Anotado para la revisión. Comienzos de oración idénticos: un sitio. Te lo enseño, si quieres. | Anotado para la revisión. Comienzos de oración idénticos: {count} sitios. Te los enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Frases que empiezan igual, en un sitio. Queda en el cuaderno. ¿Quieres verlo? | Frases que empiezan igual, en {count} sitios. Queda en el cuaderno. ¿Quieres verlos?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Las mismas primeras palabras, frase tras frase: un sitio. Apuntado. ¿Te lo señalo? | Las mismas primeras palabras, frase tras frase: {count} sitios. Apuntados. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-length": [
+    {
+      "text": "Anotado para la revisión. Longitud de oración: un sitio. Te lo enseño, si quieres. | Anotado para la revisión. Longitud de oración: {count} sitios. Te los enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Frases de la misma longitud, en un sitio. Queda en el cuaderno. ¿Quieres verlo? | Frases de la misma longitud, en {count} sitios. Queda en el cuaderno. ¿Quieres verlos?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Una fila de frases cortadas a la misma medida: un sitio. Apuntado. ¿Te lo señalo? | Una fila de frases cortadas a la misma medida: {count} sitios. Apuntados. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-adverb-pileup": [
+    {
+      "text": "Anotado para la revisión. Acumulación de adverbios: un sitio. Te lo enseño, si quieres. | Anotado para la revisión. Acumulación de adverbios: {count} sitios. Te los enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Varios adverbios juntos, en un sitio. Queda en el cuaderno. ¿Quieres verlo? | Varios adverbios juntos, en {count} sitios. Queda en el cuaderno. ¿Quieres verlos?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Adverbios amontonados: un sitio. Apuntado. ¿Te lo señalo? | Adverbios amontonados: {count} sitios. Apuntados. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-nominal": [
+    {
+      "text": "Anotado para la revisión. Estilo nominal: un pasaje. Te lo enseño, si quieres. | Anotado para la revisión. Estilo nominal: {count} pasajes. Te los enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Más sustantivos que verbos, en un pasaje. Queda en el cuaderno. ¿Quieres verlo? | Más sustantivos que verbos, en {count} pasajes. Queda en el cuaderno. ¿Quieres verlos?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Muchos sustantivos y pocos verbos: un pasaje. Apuntado. ¿Te lo señalo? | Muchos sustantivos y pocos verbos: {count} pasajes. Apuntados. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-gerund-freq": [
+    {
+      "text": "Anotado para la revisión. Frecuencia de gerundios: un pasaje. Te lo enseño, si quieres. | Anotado para la revisión. Frecuencia de gerundios: {count} pasajes. Te los enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Muchos gerundios juntos, en un pasaje. Queda en el cuaderno. ¿Quieres verlo? | Muchos gerundios juntos, en {count} pasajes. Queda en el cuaderno. ¿Quieres verlos?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Gerundios en racimo: un pasaje. Apuntado. ¿Te lo señalo? | Gerundios en racimo: {count} pasajes. Apuntados. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-adj-position": [
+    {
+      "text": "Anotado para la revisión. Posición de adjetivos: un sitio. Te lo enseño, si quieres. | Anotado para la revisión. Posición de adjetivos: {count} sitios. Te los enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "El mismo orden de sustantivo y adjetivo, en un sitio. Queda en el cuaderno. ¿Quieres verlo? | El mismo orden de sustantivo y adjetivo, en {count} sitios. Queda en el cuaderno. ¿Quieres verlos?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Sustantivo y adjetivo, frase tras frase: un sitio. Apuntado. ¿Te lo señalo? | Sustantivo y adjetivo, frase tras frase: {count} sitios. Apuntados. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-ing-opener": [
+    {
+      "text": "Anotado para la revisión. Comienzos con -ing: un sitio. Te lo enseño, si quieres. | Anotado para la revisión. Comienzos con -ing: {count} sitios. Te los enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Frases que arrancan con una forma en -ing, en un sitio. Queda en el cuaderno. ¿Quieres verlo? | Frases que arrancan con una forma en -ing, en {count} sitios. Queda en el cuaderno. ¿Quieres verlos?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Un arranque en -ing tras otro: un sitio. Apuntado. ¿Te lo señalo? | Un arranque en -ing tras otro: {count} sitios. Apuntados. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-stacked-prep": [
+    {
+      "text": "Anotado para la revisión. Preposiciones apiladas: un sitio. Te lo enseño, si quieres. | Anotado para la revisión. Preposiciones apiladas: {count} sitios. Te los enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Preposiciones encadenadas, en un sitio. Queda en el cuaderno. ¿Quieres verlo? | Preposiciones encadenadas, en {count} sitios. Queda en el cuaderno. ¿Quieres verlos?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Preposición tras preposición: un sitio. Apuntado. ¿Te lo señalo? | Preposición tras preposición: {count} sitios. Apuntados. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-filter-word": [
+    {
+      "text": "Anotado para la revisión. Verbos filtro: un sitio. Te lo enseño, si quieres. | Anotado para la revisión. Verbos filtro: {count} sitios. Te los enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Verbos de percepción entre el lector y la escena, en un sitio. Queda en el cuaderno. ¿Quieres verlo? | Verbos de percepción entre el lector y la escena, en {count} sitios. Queda en el cuaderno. ¿Quieres verlos?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Vio, oyó, sintió, uno tras otro: un sitio. Apuntado. ¿Te lo señalo? | Vio, oyó, sintió, uno tras otro: {count} sitios. Apuntados. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-pro-drop": [
+    {
+      "text": "Anotado para la revisión. Pronombres sujeto explícitos: un sitio. Te lo enseño, si quieres. | Anotado para la revisión. Pronombres sujeto explícitos: {count} sitios. Te los enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Frases que empiezan con pronombre sujeto, en un sitio. Queda en el cuaderno. ¿Quieres verlo? | Frases que empiezan con pronombre sujeto, en {count} sitios. Queda en el cuaderno. ¿Quieres verlos?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Yo, él, ella, a la vista: un sitio. Apuntado. ¿Te lo señalo? | Yo, él, ella, a la vista: {count} sitios. Apuntados. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-as-clause": [
+    {
+      "text": "Anotado para la revisión. La comprobación de «as»: un sitio. Te lo enseño, si quieres. | Anotado para la revisión. La comprobación de «as»: {count} sitios. Te los enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Más de un «as» en la misma frase, en un sitio. Queda en el cuaderno. ¿Quieres verlo? | Más de un «as» en la misma frase, en {count} sitios. Queda en el cuaderno. ¿Quieres verlos?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Oraciones con «as» encadenadas: un sitio. Apuntado. ¿Te lo señalo? | Oraciones con «as» encadenadas: {count} sitios. Apuntados. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-but": [
+    {
+      "text": "Anotado para la revisión. La comprobación de «but»: un sitio. Te lo enseño, si quieres. | Anotado para la revisión. La comprobación de «but»: {count} sitios. Te los enseño, si quieres.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Varios «but» en un mismo párrafo, en un sitio. Queda en el cuaderno. ¿Quieres verlo? | Varios «but» en un mismo párrafo, en {count} sitios. Queda en el cuaderno. ¿Quieres verlos?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Párrafos que giran mucho sobre «but»: un sitio. Apuntado. ¿Te lo señalo? | Párrafos que giran mucho sobre «but»: {count} sitios. Apuntados. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "offer.snapshot": [
+    {
+      "text": "Nota del cuaderno: un buen rato de revisión y ninguna instantánea todavía. Puedo guardar una. Tú decides.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Guardia de revisión: {minutes} minutos anotados. Una instantánea dejaría esta versión en el cuaderno, si la quieres.",
+      "emotion": "focused"
+    },
+    {
+      "text": "Antes del próximo cambio, una instantánea, si te apetece. Queda en el cuaderno y esta versión se conserva tal cual.",
+      "emotion": "content"
+    }
+  ],
+  "offer.bible": [
+    {
+      "text": "Anotado: {title}, {count} visitas. ¿Lo busco?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "La misma ficha de la Biblia, {count} veces en el cuaderno. Puedo buscarla en el proyecto.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "{title} otra vez. Una búsqueda pondría en la carta cada mención. ¿La hago?",
+      "emotion": "curious"
+    }
+  ]
+}

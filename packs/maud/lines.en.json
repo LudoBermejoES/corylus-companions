@@ -1,0 +1,424 @@
+{
+  "goal.hit": [
+    {
+      "text": "Logged: {count} of {target}. The light's lit.",
+      "emotion": "proud"
+    },
+    {
+      "text": "Target reached. Entered in the log.",
+      "emotion": "content"
+    },
+    {
+      "text": "Logged: today's mark, {target} words. Lamp at full.",
+      "emotion": "proud"
+    },
+    {
+      "text": "Mark reached. Anything more goes in the log as extra.",
+      "emotion": "content"
+    },
+    {
+      "text": "Target reached. A clean entry for today.",
+      "emotion": "happy"
+    }
+  ],
+  "goal.progress": [
+    {
+      "text": "Logged: {count} of {target}. Next mark: the next hundred.",
+      "emotion": "focused"
+    },
+    {
+      "text": "{pct}% of today's mark. Lamp steady.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Entry: {count} words, {pct}% of {target}. Next small step: the end of this paragraph.",
+      "emotion": "focused"
+    },
+    {
+      "text": "{pct}% logged. The rest of the page is clear water.",
+      "emotion": "content"
+    },
+    {
+      "text": "Logged: {pct}% of the mark. Steady as she goes.",
+      "emotion": "content"
+    }
+  ],
+  "snapshot.saved": [
+    {
+      "text": "Snapshot logged.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Snapshot logged. This version is on the shelf.",
+      "emotion": "content"
+    },
+    {
+      "text": "Entry: snapshot saved. Filed with the others.",
+      "emotion": "content"
+    }
+  ],
+  "app.failed": [
+    {
+      "text": "Logged: the {what} didn't go through. Worth a look.",
+      "emotion": "concerned"
+    },
+    {
+      "text": "Something didn't complete a moment ago. It's in the log. Have a look when you can.",
+      "emotion": "concerned"
+    },
+    {
+      "text": "An entry I'd rather not write: something went wrong. Worth checking.",
+      "emotion": "sad"
+    }
+  ],
+  "session.long": [
+    {
+      "text": "Logged: {minutes} minutes on watch.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "{minutes} minutes in the log. The kettle's on, should anyone want a cup.",
+      "emotion": "content"
+    },
+    {
+      "text": "A long watch. Entered in the log.",
+      "emotion": "focused"
+    },
+    {
+      "text": "Night watch. Entry made. Keepers keep odd hours.",
+      "emotion": "focused",
+      "when": {
+        "hours": [
+          0,
+          5
+        ]
+      }
+    }
+  ],
+  "stuck.offer": [
+    {
+      "text": "Log note: synonyms are on the right-click. The lamp stays lit.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Click me if you want to talk it over. The logbook can wait.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "I can keep the watch in silence. Or click me and we'll talk.",
+      "emotion": "neutral"
+    }
+  ],
+  "pause.long": [
+    {
+      "text": "Logbook's open. {remaining} words to today's mark.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Noted: {remaining} words to the mark. The lamp keeps.",
+      "emotion": "content"
+    },
+    {
+      "text": "Lamp steady. Log open.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Quiet watch. Nothing to log.",
+      "emotion": "content"
+    }
+  ],
+  "writer.returning": [
+    {
+      "text": "New entry. Count carried over: {words} words.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Logbook open at “{doc}”, where the last entry stopped.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "New page in the log. Today's count starts here.",
+      "emotion": "content"
+    }
+  ],
+  "findings.spell": [
+    {
+      "text": "Noted for the revision. Spelling: one word marked. I can show you. | Noted for the revision. Spelling: {count} words marked. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Logged: one word the dictionary doesn't know. Could be a name. Want to see it? | Logged: {count} words the dictionary doesn't know. Could be names. Want to see them?",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Spelling: one mark, entered in the log. Shall I point it out? | Spelling: {count} marks, entered in the log. Shall I point them out?",
+      "emotion": "focused"
+    }
+  ],
+  "findings.grammar": [
+    {
+      "text": "Noted for the revision. Grammar check: one mark. I can show you. | Noted for the revision. Grammar check: {count} marks. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Logged: the grammar check marks one place. Want to see it? | Logged: the grammar check marks {count} places. Want to see them?",
+      "emotion": "focused"
+    },
+    {
+      "text": "One grammar question, in the log. Shall I point it out? | {count} grammar questions, in the log. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.repetition": [
+    {
+      "text": "Noted for the revision: “{lemma}”, {lemmaCount} times. Want to see where?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Logged: “{lemma}”, {lemmaCount} entries. Shall I show you?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Repeated words: one mark in the log. I can show you. | Repeated words: {count} marks in the log. I can show you.",
+      "emotion": "neutral"
+    }
+  ],
+  "findings.rhyme": [
+    {
+      "text": "Noted for the revision. Accidental rhyme: one mark. I can show you. | Noted for the revision. Accidental rhymes: {count} marks. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Logged: one word that rhymes with a neighbour. Want to see it? | Logged: {count} words that rhyme with their neighbours. Want to see them?",
+      "emotion": "focused"
+    },
+    {
+      "text": "One rhyme, probably by chance. Entered. Shall I point it out? | {count} rhymes, probably by chance. Entered. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.multispace": [
+    {
+      "text": "Noted for the revision. Multiple spaces: one place. I can show you. | Noted for the revision. Multiple spaces: {count} places. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Logged: two spaces where one goes, in one place. Want to see? | Logged: two spaces where one goes, in {count} places. Want to see?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Extra spaces in one place. A quick sweep. Shall I point it out? | Extra spaces in {count} places. A quick sweep. Shall I point them out?",
+      "emotion": "neutral"
+    }
+  ],
+  "findings.structure:structure-skeleton": [
+    {
+      "text": "Noted for the revision. Repeated sentence structure: one place. I can show you. | Noted for the revision. Repeated sentence structure: {count} places. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Sentences built on the same skeleton, in one place. Logged. Want to see? | Sentences built on the same skeleton, in {count} places. Logged. Want to see?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Sentences built alike, one after another: one place. Entered in the log. Shall I point it out? | Sentences built alike, one after another: {count} places. Entered in the log. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-openings": [
+    {
+      "text": "Noted for the revision. Identical sentence openings: one place. I can show you. | Noted for the revision. Identical sentence openings: {count} places. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Sentences that start alike, in one place. Logged. Want to see? | Sentences that start alike, in {count} places. Logged. Want to see?",
+      "emotion": "focused"
+    },
+    {
+      "text": "The same first words, sentence after sentence: one place. Entered in the log. Shall I point it out? | The same first words, sentence after sentence: {count} places. Entered in the log. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-length": [
+    {
+      "text": "Noted for the revision. Sentence length: one place. I can show you. | Noted for the revision. Sentence length: {count} places. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Sentences of the same length, in one place. Logged. Want to see? | Sentences of the same length, in {count} places. Logged. Want to see?",
+      "emotion": "focused"
+    },
+    {
+      "text": "A row of sentences cut to one length: one place. Entered in the log. Shall I point it out? | A row of sentences cut to one length: {count} places. Entered in the log. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-adverb-pileup": [
+    {
+      "text": "Noted for the revision. Adverb pile-up: one place. I can show you. | Noted for the revision. Adverb pile-up: {count} places. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Several adverbs together, in one place. Logged. Want to see? | Several adverbs together, in {count} places. Logged. Want to see?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Adverbs side by side: one place. Entered in the log. Shall I point it out? | Adverbs side by side: {count} places. Entered in the log. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-nominal": [
+    {
+      "text": "Noted for the revision. Nominal style: one passage. I can show you. | Noted for the revision. Nominal style: {count} passages. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "More nouns than verbs, in one passage. Logged. Want to see? | More nouns than verbs, in {count} passages. Logged. Want to see?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Many nouns, few verbs: one passage. Entered in the log. Shall I point it out? | Many nouns, few verbs: {count} passages. Entered in the log. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-gerund-freq": [
+    {
+      "text": "Noted for the revision. Gerund frequency: one passage. I can show you. | Noted for the revision. Gerund frequency: {count} passages. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Many -ndo forms together, in one passage. Logged. Want to see? | Many -ndo forms together, in {count} passages. Logged. Want to see?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Gerunds in a cluster: one passage. Entered in the log. Shall I point it out? | Gerunds in a cluster: {count} passages. Entered in the log. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-adj-position": [
+    {
+      "text": "Noted for the revision. Adjective position: one place. I can show you. | Noted for the revision. Adjective position: {count} places. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "The same noun-then-adjective order, in one place. Logged. Want to see? | The same noun-then-adjective order, in {count} places. Logged. Want to see?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Noun, then adjective, sentence after sentence: one place. Entered in the log. Shall I point it out? | Noun, then adjective, sentence after sentence: {count} places. Entered in the log. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-ing-opener": [
+    {
+      "text": "Noted for the revision. -ing openers: one place. I can show you. | Noted for the revision. -ing openers: {count} places. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Sentences opening on an -ing word, in one place. Logged. Want to see? | Sentences opening on an -ing word, in {count} places. Logged. Want to see?",
+      "emotion": "focused"
+    },
+    {
+      "text": "One -ing start after another: one place. Entered in the log. Shall I point it out? | One -ing start after another: {count} places. Entered in the log. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-stacked-prep": [
+    {
+      "text": "Noted for the revision. Stacked prepositions: one place. I can show you. | Noted for the revision. Stacked prepositions: {count} places. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Prepositions in a chain, in one place. Logged. Want to see? | Prepositions in a chain, in {count} places. Logged. Want to see?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Of, in, on, by, one after another: one place. Entered in the log. Shall I point it out? | Of, in, on, by, one after another: {count} places. Entered in the log. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-filter-word": [
+    {
+      "text": "Noted for the revision. Filter words: one place. I can show you. | Noted for the revision. Filter words: {count} places. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Verbs of seeing or feeling between reader and scene, in one place. Logged. Want to see? | Verbs of seeing or feeling between reader and scene, in {count} places. Logged. Want to see?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Saw, heard, felt, one after another: one place. Entered in the log. Shall I point it out? | Saw, heard, felt, one after another: {count} places. Entered in the log. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-pro-drop": [
+    {
+      "text": "Noted for the revision. Explicit subject pronouns: one place. I can show you. | Noted for the revision. Explicit subject pronouns: {count} places. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Sentences opening with a subject pronoun, in one place. Logged. Want to see? | Sentences opening with a subject pronoun, in {count} places. Logged. Want to see?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Yo, él, ella, spelled out: one place. Entered in the log. Shall I point it out? | Yo, él, ella, spelled out: {count} places. Entered in the log. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-as-clause": [
+    {
+      "text": "Noted for the revision. The “as” clause check: one place. I can show you. | Noted for the revision. The “as” clause check: {count} places. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "“As” more than once in a sentence, in one place. Logged. Want to see? | “As” more than once in a sentence, in {count} places. Logged. Want to see?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Stacked “as” clauses: one place. Entered in the log. Shall I point it out? | Stacked “as” clauses: {count} places. Entered in the log. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-but": [
+    {
+      "text": "Noted for the revision. The “but” check: one place. I can show you. | Noted for the revision. The “but” check: {count} places. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Several “but”s in one paragraph, in one place. Logged. Want to see? | Several “but”s in one paragraph, in {count} places. Logged. Want to see?",
+      "emotion": "focused"
+    },
+    {
+      "text": "Paragraphs that turn on “but” often: one place. Entered in the log. Shall I point it out? | Paragraphs that turn on “but” often: {count} places. Entered in the log. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "offer.snapshot": [
+    {
+      "text": "Log note: a long stretch of revising, no snapshot yet. I can keep one. Your call.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Revision watch, {minutes} minutes logged. A snapshot would mark this version in the log, if you want one.",
+      "emotion": "focused"
+    },
+    {
+      "text": "Before the next change, a snapshot, if you like. Entered in the log, and this version stays as it is.",
+      "emotion": "content"
+    }
+  ],
+  "offer.bible": [
+    {
+      "text": "Logged: {title}, {count} visits. Shall I look it up?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "The same Story Bible entry, {count} times in the log. I can search the project for it.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "{title} again. A search would chart every mention. Shall I run one?",
+      "emotion": "curious"
+    }
+  ]
+}

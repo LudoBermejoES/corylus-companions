@@ -1,0 +1,416 @@
+{
+  "goal.hit": [
+    {
+      "text": "Target reached. That deserves a hazelnut. I ate it. Sorry.",
+      "emotion": "happy"
+    },
+    {
+      "text": "{target} words. Target reached. I was awake for it, mostly.",
+      "emotion": "proud"
+    },
+    {
+      "text": "Target reached. I'd do a little dance, but I've just woken up…",
+      "emotion": "happy"
+    },
+    {
+      "text": "Target met. I've put a hazelnut aside for you. It's mostly whole.",
+      "emotion": "content"
+    }
+  ],
+  "goal.progress": [
+    {
+      "text": "{pct}% of the target. I've been counting. Counting makes me sleepy…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "{pct}% there. That's more than I do all year. I hibernate.",
+      "emotion": "happy"
+    },
+    {
+      "text": "{count} words. A lot for a dormouse to count before his nap.",
+      "emotion": "content"
+    }
+  ],
+  "snapshot.saved": [
+    {
+      "text": "Snapshot tucked in. Snug.",
+      "emotion": "content"
+    },
+    {
+      "text": "Snapshot saved. Wrapped in a leaf, like my winter nuts.",
+      "emotion": "content"
+    },
+    {
+      "text": "Saved. A little copy, curled up safe. Like me, but less sleepy.",
+      "emotion": "happy"
+    }
+  ],
+  "app.failed": [
+    {
+      "text": "Something didn't go through. I'm awake now. Worth a look.",
+      "emotion": "concerned"
+    },
+    {
+      "text": "Oh. Something went wrong just now. Have a look when you can.",
+      "emotion": "surprised"
+    },
+    {
+      "text": "That didn't work. I'd help, but paws…",
+      "emotion": "sad"
+    }
+  ],
+  "session.long": [
+    {
+      "text": "{minutes} minutes. I napped through most of them. Sorry…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "A long session. I've had three naps and a snack.",
+      "emotion": "content"
+    },
+    {
+      "text": "{minutes} minutes. For a dormouse, that's a whole day. Mostly sleep…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Midnight. I'd be asleep, but I'm always asleep.",
+      "emotion": "sleepy",
+      "when": {
+        "hours": [
+          0,
+          5
+        ]
+      }
+    }
+  ],
+  "stuck.offer": [
+    {
+      "text": "Synonyms are a right-click away. I keep mine under my pillow.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Click me if you want to talk. I'll stay awake. I'll try…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "I can stay quiet. It's my best skill. Or click me and we'll chat.",
+      "emotion": "content"
+    }
+  ],
+  "pause.long": [
+    {
+      "text": "Oh, a pause. I'll just rest my eyes for a mo…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Quiet. Perfect napping weather…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "I'm counting hazelnuts. One… two… zzz…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "{remaining} words to the target. They'll keep. Like nuts in a burrow…",
+      "emotion": "content"
+    }
+  ],
+  "writer.returning": [
+    {
+      "text": "Oh, hello. I've been curled up in “{doc}”. It's very cosy.",
+      "emotion": "happy"
+    },
+    {
+      "text": "{words} words, all where you left them. I slept on them. Gently.",
+      "emotion": "content"
+    },
+    {
+      "text": "Hello. Everything's where you left it. I didn't move either. I never do.",
+      "emotion": "happy"
+    }
+  ],
+  "findings.spell": [
+    {
+      "text": "Spelling: one word marked. I can show you, if I stay awake… | Spelling: {count} words marked. I can show you, if I stay awake…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "One word the dictionary doesn't know. I don't know it either, but I don't know many. Want to see it? | {count} words the dictionary doesn't know. I don't know them either, but I don't know many. Want to see them?",
+      "emotion": "curious"
+    },
+    {
+      "text": "One word marked. Could be a name. Shall I point it out? | {count} words marked. Could be names. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.grammar": [
+    {
+      "text": "Grammar check: one mark. I can show you. | Grammar check: {count} marks. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "The grammar check marks one place. I woke up specially. Want to see it? | The grammar check marks {count} places. I woke up specially. Want to see them?",
+      "emotion": "surprised"
+    },
+    {
+      "text": "One grammar question. I only speak squeak. Shall I point it out? | {count} grammar questions. I only speak squeak. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.repetition": [
+    {
+      "text": "“{lemma}”, {lemmaCount} times. Want to see where?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "“{lemma}” comes up {lemmaCount} times. I counted them instead of sheep. Shall I show you?",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "“{lemma}”: {lemmaCount} times. Maybe on purpose. I can show you.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Repeated words: one mark. I can show you. | Repeated words: {count} marks. I can show you.",
+      "emotion": "neutral"
+    }
+  ],
+  "findings.rhyme": [
+    {
+      "text": "Accidental rhyme: one mark. I can show you. | Accidental rhymes: {count} marks. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "One word rhymes with a neighbour. Like nap and… nap. Want to see it? | {count} words rhyme with their neighbours. Like nap and… nap. Want to see them?",
+      "emotion": "happy"
+    },
+    {
+      "text": "One rhyme, probably by chance. Shall I point it out? | {count} rhymes, probably by chance. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.multispace": [
+    {
+      "text": "Multiple spaces: one place. I can show you. | Multiple spaces: {count} places. I can show you.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Two spaces where one goes, in one place. Room for a dormouse to curl up. Want to see? | Two spaces where one goes, in {count} places. Room for a dormouse to curl up. Want to see?",
+      "emotion": "happy"
+    },
+    {
+      "text": "Extra spaces in one place. Shall I point it out? | Extra spaces in {count} places. Shall I point them out?",
+      "emotion": "neutral"
+    }
+  ],
+  "findings.structure:structure-skeleton": [
+    {
+      "text": "Repeated sentence structure: one place. I can show you, if I stay awake… | Repeated sentence structure: {count} places. I can show you, if I stay awake…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Sentences built on the same skeleton, in one place. I woke up specially. Want to see? | Sentences built on the same skeleton, in {count} places. I woke up specially. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Sentences built alike, one after another: one place. Shall I point it out? | Sentences built alike, one after another: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-openings": [
+    {
+      "text": "Identical sentence openings: one place. I can show you. After a small yawn… | Identical sentence openings: {count} places. I can show you. After a small yawn…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Sentences that start alike, in one place. Spotted between two naps. Want to see? | Sentences that start alike, in {count} places. Spotted between two naps. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "The same first words, sentence after sentence: one place. Shall I point it out? | The same first words, sentence after sentence: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-length": [
+    {
+      "text": "Sentence length: one place. I can show you. | Sentence length: {count} places. I can show you.",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Sentences of the same length, in one place. I nearly slept through it. Want to see? | Sentences of the same length, in {count} places. I nearly slept through it. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "A row of sentences cut to one length: one place. Shall I point it out? | A row of sentences cut to one length: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-adverb-pileup": [
+    {
+      "text": "Adverb pile-up: one place. I can show you, if I stay awake… | Adverb pile-up: {count} places. I can show you, if I stay awake…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Several adverbs together, in one place. My whiskers twitched. Want to see? | Several adverbs together, in {count} places. My whiskers twitched. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Adverbs side by side: one place. Shall I point it out? | Adverbs side by side: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-nominal": [
+    {
+      "text": "Nominal style: one passage. I can show you. After a small yawn… | Nominal style: {count} passages. I can show you. After a small yawn…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "More nouns than verbs, in one passage. Spotted mid-yawn. Want to see? | More nouns than verbs, in {count} passages. Spotted mid-yawn. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Many nouns, few verbs: one passage. Shall I point it out? | Many nouns, few verbs: {count} passages. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-gerund-freq": [
+    {
+      "text": "Gerund frequency: one passage. I can show you. | Gerund frequency: {count} passages. I can show you.",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Many -ndo forms together, in one passage. Counted instead of sheep. Want to see? | Many -ndo forms together, in {count} passages. Counted instead of sheep. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Gerunds in a cluster: one passage. Shall I point it out? | Gerunds in a cluster: {count} passages. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-adj-position": [
+    {
+      "text": "Adjective position: one place. I can show you, if I stay awake… | Adjective position: {count} places. I can show you, if I stay awake…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "The same noun-then-adjective order, in one place. I woke up specially. Want to see? | The same noun-then-adjective order, in {count} places. I woke up specially. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Noun, then adjective, sentence after sentence: one place. Shall I point it out? | Noun, then adjective, sentence after sentence: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-ing-opener": [
+    {
+      "text": "-ing openers: one place. I can show you. After a small yawn… | -ing openers: {count} places. I can show you. After a small yawn…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Sentences opening on an -ing word, in one place. Spotted between two naps. Want to see? | Sentences opening on an -ing word, in {count} places. Spotted between two naps. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "One -ing start after another: one place. Shall I point it out? | One -ing start after another: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-stacked-prep": [
+    {
+      "text": "Stacked prepositions: one place. I can show you. | Stacked prepositions: {count} places. I can show you.",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Prepositions in a chain, in one place. I nearly slept through it. Want to see? | Prepositions in a chain, in {count} places. I nearly slept through it. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Of, in, on, by, one after another: one place. Shall I point it out? | Of, in, on, by, one after another: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-filter-word": [
+    {
+      "text": "Filter words: one place. I can show you, if I stay awake… | Filter words: {count} places. I can show you, if I stay awake…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Verbs of seeing or feeling between reader and scene, in one place. My whiskers twitched. Want to see? | Verbs of seeing or feeling between reader and scene, in {count} places. My whiskers twitched. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Saw, heard, felt, one after another: one place. Shall I point it out? | Saw, heard, felt, one after another: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-pro-drop": [
+    {
+      "text": "Explicit subject pronouns: one place. I can show you. After a small yawn… | Explicit subject pronouns: {count} places. I can show you. After a small yawn…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Sentences opening with a subject pronoun, in one place. Spotted mid-yawn. Want to see? | Sentences opening with a subject pronoun, in {count} places. Spotted mid-yawn. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Yo, él, ella, spelled out: one place. Shall I point it out? | Yo, él, ella, spelled out: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-as-clause": [
+    {
+      "text": "The “as” clause check: one place. I can show you. | The “as” clause check: {count} places. I can show you.",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "“As” more than once in a sentence, in one place. Counted instead of sheep. Want to see? | “As” more than once in a sentence, in {count} places. Counted instead of sheep. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Stacked “as” clauses: one place. Shall I point it out? | Stacked “as” clauses: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-but": [
+    {
+      "text": "The “but” check: one place. I can show you, if I stay awake… | The “but” check: {count} places. I can show you, if I stay awake…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Several “but”s in one paragraph, in one place. I woke up specially. Want to see? | Several “but”s in one paragraph, in {count} places. I woke up specially. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Paragraphs that turn on “but” often: one place. Shall I point it out? | Paragraphs that turn on “but” often: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "offer.snapshot": [
+    {
+      "text": "A long bit of revising. Shall I save a snapshot? I'd write it all down myself, but I'd fall asleep halfway…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "No snapshot yet. I can save one. It's like hiding a hazelnut, except I'll remember where this one is.",
+      "emotion": "content"
+    },
+    {
+      "text": "Before the next change, a snapshot, if you like. I'm awake for it. Just about.",
+      "emotion": "neutral"
+    }
+  ],
+  "offer.bible": [
+    {
+      "text": "{title} again. I'd learn it by heart for you, but I'd sleep through it. Shall I look it up instead?",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "The same entry, {count} times. I forget names too. All of them. Shall I search the project for it?",
+      "emotion": "thinking"
+    },
+    {
+      "text": "{title}, {count} visits. I woke up specially to count them. Shall I look it up?",
+      "emotion": "curious"
+    }
+  ]
+}

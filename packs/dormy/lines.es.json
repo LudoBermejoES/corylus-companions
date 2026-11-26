@@ -1,0 +1,416 @@
+{
+  "goal.hit": [
+    {
+      "text": "Meta cumplida. Eso merece una avellana. Me la he comido. Perdón.",
+      "emotion": "happy"
+    },
+    {
+      "text": "{target} palabras. Meta cumplida. Estaba despierto, casi todo el rato.",
+      "emotion": "proud"
+    },
+    {
+      "text": "Meta cumplida. Haría un bailecito, pero me acabo de despertar…",
+      "emotion": "happy"
+    },
+    {
+      "text": "Meta cumplida. Te he guardado una avellana. Está casi entera.",
+      "emotion": "content"
+    }
+  ],
+  "goal.progress": [
+    {
+      "text": "El {pct} % de la meta. Llevo la cuenta. Contar me da sueño…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Vas por el {pct} %. Es más de lo que yo hago en un año. Hiberno.",
+      "emotion": "happy"
+    },
+    {
+      "text": "{count} palabras. Muchas para que las cuente un muscardino antes de la siesta.",
+      "emotion": "content"
+    }
+  ],
+  "snapshot.saved": [
+    {
+      "text": "Instantánea arropada. Calentita.",
+      "emotion": "content"
+    },
+    {
+      "text": "Instantánea guardada. Envuelta en una hoja, como mis avellanas de invierno.",
+      "emotion": "content"
+    },
+    {
+      "text": "Guardada. Una copia pequeña, hecha una bola y a salvo. Como yo, pero con menos sueño.",
+      "emotion": "happy"
+    }
+  ],
+  "app.failed": [
+    {
+      "text": "Algo no ha salido. Ya estoy despierto. Merece un vistazo.",
+      "emotion": "concerned"
+    },
+    {
+      "text": "Vaya. Algo ha ido mal hace un momento. Míralo cuando puedas.",
+      "emotion": "surprised"
+    },
+    {
+      "text": "Eso no ha funcionado. Te ayudaría, pero patitas…",
+      "emotion": "sad"
+    }
+  ],
+  "session.long": [
+    {
+      "text": "{minutes} minutos. Me he dormido en casi todos. Perdón…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Sesión larga. Yo llevo tres siestas y un tentempié.",
+      "emotion": "content"
+    },
+    {
+      "text": "{minutes} minutos. Para un muscardino, eso es un día entero. Casi todo de sueño…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Medianoche. A estas horas yo duermo como un lirón. Porque casi lo soy.",
+      "emotion": "sleepy",
+      "when": {
+        "hours": [
+          0,
+          5
+        ]
+      }
+    }
+  ],
+  "stuck.offer": [
+    {
+      "text": "Los sinónimos están a un clic derecho. Yo guardo los míos debajo de la almohada.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Haz clic en mí si quieres hablar. Me quedo despierto. Lo intento…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Puedo quedarme en silencio. Es lo que mejor se me da. O haz clic y charlamos.",
+      "emotion": "content"
+    }
+  ],
+  "pause.long": [
+    {
+      "text": "Ah, una pausa. Cierro los ojos un momenti…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Silencio. Tiempo perfecto para una siesta…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Cuento avellanas. Una… dos… zzz…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Faltan {remaining} palabras para la meta. Se conservan bien. Como las avellanas en la madriguera…",
+      "emotion": "content"
+    }
+  ],
+  "writer.returning": [
+    {
+      "text": "Hola. He estado hecho una bola en «{doc}». Se está muy a gusto.",
+      "emotion": "happy"
+    },
+    {
+      "text": "{words} palabras, todas donde las dejaste. He dormido encima. Con cuidado.",
+      "emotion": "content"
+    },
+    {
+      "text": "Hola. Todo sigue donde lo dejaste. Yo tampoco me he movido. Nunca me muevo.",
+      "emotion": "happy"
+    }
+  ],
+  "findings.spell": [
+    {
+      "text": "Ortografía: una palabra marcada. Te la enseño, si no me duermo antes… | Ortografía: {count} palabras marcadas. Te las enseño, si no me duermo antes…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Una palabra que el diccionario no conoce. Yo tampoco, pero yo conozco pocas. ¿Quieres verla? | {count} palabras que el diccionario no conoce. Yo tampoco, pero yo conozco pocas. ¿Quieres verlas?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Una palabra marcada. Puede ser un nombre. ¿Te la señalo? | {count} palabras marcadas. Pueden ser nombres. ¿Te las señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.grammar": [
+    {
+      "text": "Revisión gramatical: una marca. ¿Te la enseño? | Revisión gramatical: {count} marcas. ¿Te las enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "La revisión gramatical marca un sitio. Me he despertado a propósito. ¿Quieres verlo? | La revisión gramatical marca {count} sitios. Me he despertado a propósito. ¿Quieres verlos?",
+      "emotion": "surprised"
+    },
+    {
+      "text": "Una duda de gramática. Yo solo hablo en chillidos. ¿Te la señalo? | {count} dudas de gramática. Yo solo hablo en chillidos. ¿Te las señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.repetition": [
+    {
+      "text": "«{lemma}», {lemmaCount} veces. ¿Quieres ver dónde?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "«{lemma}» sale {lemmaCount} veces. Las he contado en vez de ovejas. ¿Te las enseño?",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "«{lemma}»: {lemmaCount} veces. Quizá a propósito. Te enseño dónde, si quieres.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Palabras repetidas: una marca. ¿Te la enseño? | Palabras repetidas: {count} marcas. ¿Te las enseño?",
+      "emotion": "neutral"
+    }
+  ],
+  "findings.rhyme": [
+    {
+      "text": "Rima accidental: una marca. ¿Te la enseño? | Rimas accidentales: {count} marcas. ¿Te las enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Una palabra rima con otra cercana. Como siesta y… siesta. ¿Quieres verla? | {count} palabras riman con otras cercanas. Como siesta y… siesta. ¿Quieres verlas?",
+      "emotion": "happy"
+    },
+    {
+      "text": "Una rima, quizá sin querer. ¿Te la señalo? | {count} rimas, quizá sin querer. ¿Te las señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.multispace": [
+    {
+      "text": "Espacios múltiples: un sitio. ¿Te lo enseño? | Espacios múltiples: {count} sitios. ¿Te los enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Dos espacios donde va uno, en un sitio. Ahí cabe un muscardino hecho una bola. ¿Quieres verlo? | Dos espacios donde va uno, en {count} sitios. Ahí cabe un muscardino hecho una bola. ¿Quieres verlos?",
+      "emotion": "happy"
+    },
+    {
+      "text": "Espacios de más en un sitio. ¿Te lo señalo? | Espacios de más en {count} sitios. ¿Te los señalo?",
+      "emotion": "neutral"
+    }
+  ],
+  "findings.structure:structure-skeleton": [
+    {
+      "text": "Estructura de oración repetida: un sitio. Te lo enseño, si no me duermo antes… | Estructura de oración repetida: {count} sitios. Te los enseño, si no me duermo antes…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Frases con el mismo esqueleto, en un sitio. Me he despertado a propósito. ¿Quieres verlo? | Frases con el mismo esqueleto, en {count} sitios. Me he despertado a propósito. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Frases construidas igual, una tras otra: un sitio. ¿Te lo señalo? | Frases construidas igual, una tras otra: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-openings": [
+    {
+      "text": "Comienzos de oración idénticos: un sitio. Te lo enseño, después de un bostezo… | Comienzos de oración idénticos: {count} sitios. Te los enseño, después de un bostezo…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Frases que empiezan igual, en un sitio. Visto entre dos siestas. ¿Quieres verlo? | Frases que empiezan igual, en {count} sitios. Visto entre dos siestas. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Las mismas primeras palabras, frase tras frase: un sitio. ¿Te lo señalo? | Las mismas primeras palabras, frase tras frase: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-length": [
+    {
+      "text": "Longitud de oración: un sitio. ¿Te lo enseño? | Longitud de oración: {count} sitios. ¿Te los enseño?",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Frases de la misma longitud, en un sitio. Casi me lo pierdo, del sueño que tengo. ¿Quieres verlo? | Frases de la misma longitud, en {count} sitios. Casi me lo pierdo, del sueño que tengo. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Una fila de frases cortadas a la misma medida: un sitio. ¿Te lo señalo? | Una fila de frases cortadas a la misma medida: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-adverb-pileup": [
+    {
+      "text": "Acumulación de adverbios: un sitio. Te lo enseño, si no me duermo antes… | Acumulación de adverbios: {count} sitios. Te los enseño, si no me duermo antes…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Varios adverbios juntos, en un sitio. Se me han movido los bigotes. ¿Quieres verlo? | Varios adverbios juntos, en {count} sitios. Se me han movido los bigotes. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Adverbios amontonados: un sitio. ¿Te lo señalo? | Adverbios amontonados: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-nominal": [
+    {
+      "text": "Estilo nominal: un pasaje. Te lo enseño, después de un bostezo… | Estilo nominal: {count} pasajes. Te los enseño, después de un bostezo…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Más sustantivos que verbos, en un pasaje. Visto a mitad de bostezo. ¿Quieres verlo? | Más sustantivos que verbos, en {count} pasajes. Visto a mitad de bostezo. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Muchos sustantivos y pocos verbos: un pasaje. ¿Te lo señalo? | Muchos sustantivos y pocos verbos: {count} pasajes. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-gerund-freq": [
+    {
+      "text": "Frecuencia de gerundios: un pasaje. ¿Te lo enseño? | Frecuencia de gerundios: {count} pasajes. ¿Te los enseño?",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Muchos gerundios juntos, en un pasaje. Contado en vez de ovejas. ¿Quieres verlo? | Muchos gerundios juntos, en {count} pasajes. Contado en vez de ovejas. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Gerundios en racimo: un pasaje. ¿Te lo señalo? | Gerundios en racimo: {count} pasajes. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-adj-position": [
+    {
+      "text": "Posición de adjetivos: un sitio. Te lo enseño, si no me duermo antes… | Posición de adjetivos: {count} sitios. Te los enseño, si no me duermo antes…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "El mismo orden de sustantivo y adjetivo, en un sitio. Me he despertado a propósito. ¿Quieres verlo? | El mismo orden de sustantivo y adjetivo, en {count} sitios. Me he despertado a propósito. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Sustantivo y adjetivo, frase tras frase: un sitio. ¿Te lo señalo? | Sustantivo y adjetivo, frase tras frase: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-ing-opener": [
+    {
+      "text": "Comienzos con -ing: un sitio. Te lo enseño, después de un bostezo… | Comienzos con -ing: {count} sitios. Te los enseño, después de un bostezo…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Frases que arrancan con una forma en -ing, en un sitio. Visto entre dos siestas. ¿Quieres verlo? | Frases que arrancan con una forma en -ing, en {count} sitios. Visto entre dos siestas. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Un arranque en -ing tras otro: un sitio. ¿Te lo señalo? | Un arranque en -ing tras otro: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-stacked-prep": [
+    {
+      "text": "Preposiciones apiladas: un sitio. ¿Te lo enseño? | Preposiciones apiladas: {count} sitios. ¿Te los enseño?",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Preposiciones encadenadas, en un sitio. Casi me lo pierdo, del sueño que tengo. ¿Quieres verlo? | Preposiciones encadenadas, en {count} sitios. Casi me lo pierdo, del sueño que tengo. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Preposición tras preposición: un sitio. ¿Te lo señalo? | Preposición tras preposición: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-filter-word": [
+    {
+      "text": "Verbos filtro: un sitio. Te lo enseño, si no me duermo antes… | Verbos filtro: {count} sitios. Te los enseño, si no me duermo antes…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Verbos de percepción entre el lector y la escena, en un sitio. Se me han movido los bigotes. ¿Quieres verlo? | Verbos de percepción entre el lector y la escena, en {count} sitios. Se me han movido los bigotes. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Vio, oyó, sintió, uno tras otro: un sitio. ¿Te lo señalo? | Vio, oyó, sintió, uno tras otro: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-pro-drop": [
+    {
+      "text": "Pronombres sujeto explícitos: un sitio. Te lo enseño, después de un bostezo… | Pronombres sujeto explícitos: {count} sitios. Te los enseño, después de un bostezo…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Frases que empiezan con pronombre sujeto, en un sitio. Visto a mitad de bostezo. ¿Quieres verlo? | Frases que empiezan con pronombre sujeto, en {count} sitios. Visto a mitad de bostezo. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Yo, él, ella, a la vista: un sitio. ¿Te lo señalo? | Yo, él, ella, a la vista: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-as-clause": [
+    {
+      "text": "La comprobación de «as»: un sitio. ¿Te lo enseño? | La comprobación de «as»: {count} sitios. ¿Te los enseño?",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Más de un «as» en la misma frase, en un sitio. Contado en vez de ovejas. ¿Quieres verlo? | Más de un «as» en la misma frase, en {count} sitios. Contado en vez de ovejas. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Oraciones con «as» encadenadas: un sitio. ¿Te lo señalo? | Oraciones con «as» encadenadas: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-but": [
+    {
+      "text": "La comprobación de «but»: un sitio. Te lo enseño, si no me duermo antes… | La comprobación de «but»: {count} sitios. Te los enseño, si no me duermo antes…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Varios «but» en un mismo párrafo, en un sitio. Me he despertado a propósito. ¿Quieres verlo? | Varios «but» en un mismo párrafo, en {count} sitios. Me he despertado a propósito. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Párrafos que giran mucho sobre «but»: un sitio. ¿Te lo señalo? | Párrafos que giran mucho sobre «but»: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "offer.snapshot": [
+    {
+      "text": "Un buen rato revisando. ¿Guardo una instantánea? La apuntaría yo, pero me dormiría a la mitad…",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "Ninguna instantánea todavía. Puedo guardar una. Es como esconder una avellana, pero esta vez sí me acordaré de dónde está.",
+      "emotion": "content"
+    },
+    {
+      "text": "Antes del próximo cambio, una instantánea, si te apetece. Estoy despierto para ello. Más o menos.",
+      "emotion": "neutral"
+    }
+  ],
+  "offer.bible": [
+    {
+      "text": "{title} otra vez. Me lo aprendería de memoria por ti, pero me quedaría dormido. ¿Mejor lo busco?",
+      "emotion": "sleepy"
+    },
+    {
+      "text": "La misma ficha, {count} veces. A mí también se me olvidan los nombres. Todos. ¿La busco en el proyecto?",
+      "emotion": "thinking"
+    },
+    {
+      "text": "{title}, {count} visitas. Me he despertado a propósito para contarlas. ¿Lo busco?",
+      "emotion": "curious"
+    }
+  ]
+}

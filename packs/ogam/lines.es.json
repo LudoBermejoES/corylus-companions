@@ -384,5 +384,33 @@
       "text": "Párrafos que giran sobre «but»: un sitio. ¿Te lo señalo? | Párrafos que giran sobre «but»: {count} sitios. ¿Te los señalo?",
       "emotion": "thinking"
     }
+  ],
+  "offer.snapshot": [
+    {
+      "text": "Un buen rato revisando. ¿Guardo una instantánea? Un clic.",
+      "emotion": "content"
+    },
+    {
+      "text": "Unos {minutes} minutos retocando, y nada guardado. Puedo guardar una instantánea.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Antes del siguiente cambio, una instantánea, si quieres. Esta versión quedaría tal cual.",
+      "emotion": "neutral"
+    }
+  ],
+  "offer.bible": [
+    {
+      "text": "{title} otra vez. ¿Lo busco?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Has abierto {title} {count} veces. ¿Quieres que lo busque en el proyecto?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Un nombre que vuelve. ¿Lo busco?",
+      "emotion": "thinking"
+    }
   ]
 }

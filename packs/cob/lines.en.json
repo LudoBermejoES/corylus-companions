@@ -384,5 +384,33 @@
       "text": "I counted one paragraph that turns on “but” often. Shall I point it out? | I counted {count} paragraphs that turn on “but” often. Shall I point them out?",
       "emotion": "thinking"
     }
+  ],
+  "offer.snapshot": [
+    {
+      "text": "A long stretch of revising, and no snapshot yet. Shall I stash one?",
+      "emotion": "curious"
+    },
+    {
+      "text": "About {minutes} minutes of reworking. A snapshot would keep this version safe all winter.",
+      "emotion": "content"
+    },
+    {
+      "text": "Want a snapshot before you go on? I'll bury it where you can find it.",
+      "emotion": "happy"
+    }
+  ],
+  "offer.bible": [
+    {
+      "text": "{title} again. Shall I dig it up for you?",
+      "emotion": "curious"
+    },
+    {
+      "text": "You've opened {title} {count} times. Want me to search the project for it?",
+      "emotion": "curious"
+    },
+    {
+      "text": "That name keeps coming back. Shall I go and find it?",
+      "emotion": "neutral"
+    }
   ]
 }

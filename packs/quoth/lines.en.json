@@ -384,5 +384,33 @@
       "text": "A paragraph that turns on “but” often: one place. Shall I point it out? | Paragraphs that turn on “but” often: {count} places. Shall I point them out?",
       "emotion": "thinking"
     }
+  ],
+  "offer.snapshot": [
+    {
+      "text": "A long run of revising and no snapshot. I can file one. Filing is a raven talent.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "About {minutes} minutes of rework, nothing saved. Want a snapshot? I'll keep it out of my nest.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Shall I keep a snapshot? A raven likes a record.",
+      "emotion": "content"
+    }
+  ],
+  "offer.bible": [
+    {
+      "text": "{title}, {count} times now. Shall I look it up? I'm good at finding things.",
+      "emotion": "curious"
+    },
+    {
+      "text": "{title} again. Ravens remember names. Shall I search the project for it?",
+      "emotion": "thinking"
+    },
+    {
+      "text": "That name keeps returning. Shall I go and fetch it?",
+      "emotion": "neutral"
+    }
   ]
 }

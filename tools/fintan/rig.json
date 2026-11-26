@@ -1,0 +1,19 @@
+{
+ "viewBox": [202, 120, 620, 620],
+ "fadeBottom": 0.1,
+ "emotions": {
+  "neutral": {"brow": {"dy": -8, "inner_up": 6}, "eyes": "open", "mouth": "neutral"},
+  "content": {"brow": {"dy": -10, "inner_up": 8}, "eyes": "happy", "mouth": "smile", "tilt": 4},
+  "happy": {"brow": {"dy": -22, "inner_up": 10}, "eyes": "happy", "mouth": "open", "tilt": -4, "dy": -4},
+  "proud": {"brow": {"dy": -12, "inner_up": 2}, "eyes": "open", "mouth": "smile", "tilt": -6, "dy": -8},
+  "excited": {"brow": {"dy": -32, "inner_up": 10}, "eyes": "wide", "mouth": "open", "dy": -10},
+  "curious": {"brow_l": {"dy": -32, "inner_up": 4}, "brow_r": {"dy": -4, "inner_up": 0}, "eyes": "open", "mouth": "o", "tilt": 8},
+  "focused": {"brow": {"dy": 4, "inner_up": -6}, "eyes": "lidded", "mouth": "flat"},
+  "thinking": {"brow_l": {"dy": 2, "inner_up": -4}, "brow_r": {"dy": -24, "inner_up": 6}, "eyes": "up", "mouth": "flat", "tilt": -5},
+  "surprised": {"brow": {"dy": -40, "inner_up": 8}, "eyes": "wide", "mouth": "o"},
+  "concerned": {"brow": {"dy": -16, "inner_up": 30}, "eyes": "open", "mouth": "frown"},
+  "sad": {"brow": {"dy": -8, "inner_up": 36}, "eyes": "heavy", "mouth": "frown", "tilt": 4, "dy": 8},
+  "sleepy": {"brow": {"dy": 2, "inner_up": 8}, "eyes": "closed", "mouth": "neutral", "tilt": 8, "dy": 8}
+ },
+ "talk": {"mouths": ["open", "neutral"]}
+}

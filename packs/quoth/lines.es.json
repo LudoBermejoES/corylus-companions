@@ -384,5 +384,33 @@
       "text": "Un párrafo que gira mucho sobre «but»: un sitio. ¿Te lo señalo? | Párrafos que giran mucho sobre «but»: {count} sitios. ¿Te los señalo?",
       "emotion": "thinking"
     }
+  ],
+  "offer.snapshot": [
+    {
+      "text": "Un buen rato revisando y ninguna instantánea. Puedo archivar una. Archivar es talento de cuervo.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Unos {minutes} minutos de retoques, nada guardado. ¿Quieres una instantánea? La guardo lejos de mi nido.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "¿Guardo una instantánea? A un cuervo le gusta tener registro.",
+      "emotion": "content"
+    }
+  ],
+  "offer.bible": [
+    {
+      "text": "{title}, ya {count} veces. ¿Lo busco? Se me da bien encontrar cosas.",
+      "emotion": "curious"
+    },
+    {
+      "text": "{title} otra vez. Los cuervos recordamos nombres. ¿Lo busco en el proyecto?",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Ese nombre vuelve y vuelve. ¿Voy a por él?",
+      "emotion": "neutral"
+    }
   ]
 }
