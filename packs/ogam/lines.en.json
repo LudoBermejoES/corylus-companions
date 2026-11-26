@@ -97,6 +97,38 @@
       "emotion": "neutral"
     }
   ],
+  "pause.long": [
+    {
+      "text": "Take your time. The page waits.",
+      "emotion": "content"
+    },
+    {
+      "text": "Roots grow where nobody sees.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "I'll keep still. Nothing here is in a hurry.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Words to the target: {remaining}. They'll keep.",
+      "emotion": "content"
+    }
+  ],
+  "writer.returning": [
+    {
+      "text": "You stopped in “{doc}”. It's as you left it.",
+      "emotion": "content"
+    },
+    {
+      "text": "{words} words, all where you left them.",
+      "emotion": "content"
+    },
+    {
+      "text": "Everything is where you left it. Same roots, same branches.",
+      "emotion": "content"
+    }
+  ],
   "findings.spell": [
     {
       "text": "Spelling: one word marked. I can show you. | Spelling: {count} words marked. I can show you.",

@@ -97,6 +97,38 @@
       "emotion": "neutral"
     }
   ],
+  "pause.long": [
+    {
+      "text": "Tómate tu tiempo. La página espera.",
+      "emotion": "content"
+    },
+    {
+      "text": "Las raíces crecen donde nadie mira.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Aquí sigo, sin moverme. Nada tiene prisa.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Palabras hasta la meta: {remaining}. Esperan.",
+      "emotion": "content"
+    }
+  ],
+  "writer.returning": [
+    {
+      "text": "Te quedaste en «{doc}». Está como lo dejaste.",
+      "emotion": "content"
+    },
+    {
+      "text": "{words} palabras, todas donde las dejaste.",
+      "emotion": "content"
+    },
+    {
+      "text": "Todo está donde lo dejaste. Mismas raíces, mismas ramas.",
+      "emotion": "content"
+    }
+  ],
   "findings.spell": [
     {
       "text": "Ortografía: una palabra marcada. Te la enseño, si quieres. | Ortografía: {count} palabras marcadas. Te las enseño, si quieres.",
