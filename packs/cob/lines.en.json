@@ -1,0 +1,388 @@
+{
+  "goal.hit": [
+    {
+      "text": "{target} words in the store. Target met.",
+      "emotion": "proud"
+    },
+    {
+      "text": "Target met. The day's harvest is in.",
+      "emotion": "happy"
+    },
+    {
+      "text": "{count} words gathered. That's the target.",
+      "emotion": "excited"
+    },
+    {
+      "text": "Target met. Anything more goes in the winter pile.",
+      "emotion": "content"
+    }
+  ],
+  "goal.progress": [
+    {
+      "text": "{pct}% of the target, already in the store.",
+      "emotion": "happy"
+    },
+    {
+      "text": "{pct}% gathered. The pile grows.",
+      "emotion": "content"
+    },
+    {
+      "text": "{count} words stored. {pct}% of the way.",
+      "emotion": "proud"
+    }
+  ],
+  "snapshot.saved": [
+    {
+      "text": "Snapshot saved. The stash is safe.",
+      "emotion": "content"
+    },
+    {
+      "text": "Snapshot saved. Buried where you can find it again.",
+      "emotion": "happy"
+    },
+    {
+      "text": "Saved as a snapshot. This version keeps all winter.",
+      "emotion": "content"
+    }
+  ],
+  "app.failed": [
+    {
+      "text": "Something didn't go through. Worth a look.",
+      "emotion": "concerned"
+    },
+    {
+      "text": "Something went wrong just now. Have a look when you can.",
+      "emotion": "concerned"
+    },
+    {
+      "text": "That one failed. I'll stay close while you check.",
+      "emotion": "sad"
+    }
+  ],
+  "session.long": [
+    {
+      "text": "{minutes} minutes of gathering. The store's been busy.",
+      "emotion": "happy"
+    },
+    {
+      "text": "A long session. I've stopped for a nut. Twice.",
+      "emotion": "content"
+    },
+    {
+      "text": "{minutes} minutes at the desk. I've counted every one.",
+      "emotion": "proud"
+    },
+    {
+      "text": "Night shift. The quiet hours count the same.",
+      "emotion": "sleepy",
+      "when": {
+        "hours": [
+          0,
+          5
+        ]
+      }
+    }
+  ],
+  "stuck.offer": [
+    {
+      "text": "Synonyms are a right-click away, if a word won't come.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Click me if you want to talk it through.",
+      "emotion": "curious"
+    },
+    {
+      "text": "I can stay quiet. Or click me and we'll talk.",
+      "emotion": "neutral"
+    }
+  ],
+  "pause.long": [
+    {
+      "text": "Thinking time. I'll sort some nuts meanwhile.",
+      "emotion": "content"
+    },
+    {
+      "text": "The store keeps. Nothing in it goes off.",
+      "emotion": "content"
+    },
+    {
+      "text": "I'll be on my branch. No hurry at all.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "{remaining} words to the target. They'll keep.",
+      "emotion": "content"
+    }
+  ],
+  "writer.returning": [
+    {
+      "text": "{words} words in the store, all where you left them.",
+      "emotion": "happy"
+    },
+    {
+      "text": "You stopped in “{doc}”. It's right where you left it.",
+      "emotion": "content"
+    },
+    {
+      "text": "Everything's where you left it. I counted.",
+      "emotion": "proud"
+    }
+  ],
+  "findings.spell": [
+    {
+      "text": "Spelling: one word marked. Want me to show you? | Spelling: {count} words marked. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "One word the dictionary doesn't know yet. Want to see it? | {count} words the dictionary doesn't know yet. Want to see them?",
+      "emotion": "curious"
+    },
+    {
+      "text": "I counted one word the spell check marks. A name, maybe. Shall I show you? | I counted {count} words the spell check marks. Names, maybe. Shall I show you?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.grammar": [
+    {
+      "text": "Grammar check: one mark. Want me to show you? | Grammar check: {count} marks. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "One grammar question here. Want to look at it together? | {count} grammar questions here. Want to look at them together?",
+      "emotion": "curious"
+    },
+    {
+      "text": "The grammar check marks one place. Shall I point it out? | The grammar check marks {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.repetition": [
+    {
+      "text": "“{lemma}” turns up {lemmaCount} times. Want to see where?",
+      "emotion": "curious"
+    },
+    {
+      "text": "I count “{lemma}” {lemmaCount} times. Maybe on purpose. Shall I show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "“{lemma}” is doing a lot of work: {lemmaCount} times. Want to see where?",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Repeated words: one mark. Want me to show you? | Repeated words: {count} marks. Want me to show you?",
+      "emotion": "neutral"
+    }
+  ],
+  "findings.rhyme": [
+    {
+      "text": "Accidental rhyme: one mark. Want me to show you? | Accidental rhymes: {count} marks. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "One word rhymes with a neighbour. Want to see it? | {count} words rhyme with their neighbours. Want to see them?",
+      "emotion": "curious"
+    },
+    {
+      "text": "I found one rhyme, maybe by chance. Shall I point it out? | I found {count} rhymes, maybe by chance. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.multispace": [
+    {
+      "text": "Multiple spaces: one place. Want me to show you? | Multiple spaces: {count} places. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Extra spaces in one place. A quick sweep. Want to see? | Extra spaces in {count} places. A quick sweep. Want to see?",
+      "emotion": "content"
+    },
+    {
+      "text": "Two spaces where one goes: one place. Shall I point it out? | Two spaces where one goes: {count} places. Shall I point them out?",
+      "emotion": "focused"
+    }
+  ],
+  "findings.structure:structure-skeleton": [
+    {
+      "text": "Repeated sentence structure: one place. Want me to show you? | Repeated sentence structure: {count} places. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Sentences built on the same skeleton, in one place. Want to see? | Sentences built on the same skeleton, in {count} places. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "I counted one run of sentences built alike. Shall I point it out? | I counted {count} runs of sentences built alike. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-openings": [
+    {
+      "text": "Identical sentence openings: one place. Want me to show you? | Identical sentence openings: {count} places. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Sentences that start alike, in one place. Want to see? | Sentences that start alike, in {count} places. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "The same first words, sentence after sentence: one place. Shall I point it out? | The same first words, sentence after sentence: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-length": [
+    {
+      "text": "Sentence length: one place. Want me to show you? | Sentence length: {count} places. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Sentences of the same length, in one place. Want to see? | Sentences of the same length, in {count} places. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Sentences lined up like nuts of one size: one place. Shall I point it out? | Sentences lined up like nuts of one size: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-adverb-pileup": [
+    {
+      "text": "Adverb pile-up: one place. Want me to show you? | Adverb pile-up: {count} places. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Several adverbs together, in one place. Want to see? | Several adverbs together, in {count} places. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Adverbs in a little heap: one place. Shall I point it out? | Adverbs in little heaps: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-nominal": [
+    {
+      "text": "Nominal style: one passage. Want me to show you? | Nominal style: {count} passages. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "More nouns than verbs, in one passage. Want to see? | More nouns than verbs, in {count} passages. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Lots of nouns, few verbs: one passage. Shall I point it out? | Lots of nouns, few verbs: {count} passages. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-gerund-freq": [
+    {
+      "text": "Gerund frequency: one passage. Want me to show you? | Gerund frequency: {count} passages. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Many -ndo forms together, in one passage. Want to see? | Many -ndo forms together, in {count} passages. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "I counted one cluster of gerunds. Shall I point it out? | I counted {count} clusters of gerunds. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-adj-position": [
+    {
+      "text": "Adjective position: one place. Want me to show you? | Adjective position: {count} places. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "The same noun-then-adjective order, in one place. Want to see? | The same noun-then-adjective order, in {count} places. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Noun, then adjective, sentence after sentence: one place. Shall I point it out? | Noun, then adjective, sentence after sentence: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-ing-opener": [
+    {
+      "text": "-ing openers: one place. Want me to show you? | -ing openers: {count} places. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Sentences opening on an -ing word, in one place. Want to see? | Sentences opening on an -ing word, in {count} places. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "One -ing start after another: one place. Shall I point it out? | One -ing start after another: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-stacked-prep": [
+    {
+      "text": "Stacked prepositions: one place. Want me to show you? | Stacked prepositions: {count} places. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Prepositions in a chain, in one place. Want to see? | Prepositions in a chain, in {count} places. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Preposition after preposition: one place. Shall I point it out? | Preposition after preposition: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-filter-word": [
+    {
+      "text": "Filter words: one marked. Want me to show you? | Filter words: {count} marked. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "One verb of seeing or thinking between reader and scene. Want to see it? | {count} verbs of seeing or thinking between reader and scene. Want to see them?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Saw, heard, felt: I counted one filter word. Shall I point it out? | Saw, heard, felt: I counted {count} filter words. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-pro-drop": [
+    {
+      "text": "Explicit subject pronouns: one place. Want me to show you? | Explicit subject pronouns: {count} places. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Sentences opening with a subject pronoun, in one place. Want to see? | Sentences opening with a subject pronoun, in {count} places. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Yo, él, ella, spelled out: one place. Shall I point it out? | Yo, él, ella, spelled out: {count} places. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-as-clause": [
+    {
+      "text": "The “as” clause check: one place. Want me to show you? | The “as” clause check: {count} places. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "“As” more than once in a sentence, in one place. Want to see? | “As” more than once in a sentence, in {count} places. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "I counted one sentence with stacked “as” clauses. Shall I point it out? | I counted {count} sentences with stacked “as” clauses. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-but": [
+    {
+      "text": "The “but” check: one place. Want me to show you? | The “but” check: {count} places. Want me to show you?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Several “but”s in one paragraph, in one place. Want to see? | Several “but”s in one paragraph, in {count} places. Want to see?",
+      "emotion": "curious"
+    },
+    {
+      "text": "I counted one paragraph that turns on “but” often. Shall I point it out? | I counted {count} paragraphs that turn on “but” often. Shall I point them out?",
+      "emotion": "thinking"
+    }
+  ]
+}

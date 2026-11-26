@@ -1,0 +1,388 @@
+{
+  "goal.hit": [
+    {
+      "text": "{target} palabras en la despensa. Meta cumplida.",
+      "emotion": "proud"
+    },
+    {
+      "text": "Meta cumplida. La cosecha del día, recogida.",
+      "emotion": "happy"
+    },
+    {
+      "text": "{count} palabras guardadas. Ya está la meta.",
+      "emotion": "excited"
+    },
+    {
+      "text": "Meta cumplida. Lo que venga, para el invierno.",
+      "emotion": "content"
+    }
+  ],
+  "goal.progress": [
+    {
+      "text": "El {pct} % de la meta, ya en la despensa.",
+      "emotion": "happy"
+    },
+    {
+      "text": "{pct} % recogido. El montón crece.",
+      "emotion": "content"
+    },
+    {
+      "text": "{count} palabras guardadas. Llevas el {pct} %.",
+      "emotion": "proud"
+    }
+  ],
+  "snapshot.saved": [
+    {
+      "text": "Instantánea guardada. Provisiones a salvo.",
+      "emotion": "content"
+    },
+    {
+      "text": "Instantánea guardada. Enterrada donde la vuelves a encontrar.",
+      "emotion": "happy"
+    },
+    {
+      "text": "Esta versión, guardada. Aguanta todo el invierno.",
+      "emotion": "content"
+    }
+  ],
+  "app.failed": [
+    {
+      "text": "Algo no ha salido. Échale un vistazo.",
+      "emotion": "concerned"
+    },
+    {
+      "text": "Algo ha fallado hace un momento. Míralo cuando puedas.",
+      "emotion": "concerned"
+    },
+    {
+      "text": "Eso ha fallado. Aquí sigo mientras lo miras.",
+      "emotion": "sad"
+    }
+  ],
+  "session.long": [
+    {
+      "text": "{minutes} minutos recogiendo. La despensa no para.",
+      "emotion": "happy"
+    },
+    {
+      "text": "Sesión larga. Yo ya he parado a por una avellana. Dos veces.",
+      "emotion": "content"
+    },
+    {
+      "text": "{minutes} minutos de mesa. Los he contado todos.",
+      "emotion": "proud"
+    },
+    {
+      "text": "Turno de noche. Las horas tranquilas cuentan igual.",
+      "emotion": "sleepy",
+      "when": {
+        "hours": [
+          0,
+          5
+        ]
+      }
+    }
+  ],
+  "stuck.offer": [
+    {
+      "text": "Si una palabra no sale, los sinónimos están a un clic derecho.",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Haz clic en mí si quieres darle una vuelta en voz alta.",
+      "emotion": "curious"
+    },
+    {
+      "text": "Puedo quedarme en silencio. O haz clic y hablamos.",
+      "emotion": "neutral"
+    }
+  ],
+  "pause.long": [
+    {
+      "text": "Tiempo de pensar. Mientras, ordeno avellanas.",
+      "emotion": "content"
+    },
+    {
+      "text": "La despensa aguanta. Aquí no se estropea nada.",
+      "emotion": "content"
+    },
+    {
+      "text": "Estoy en mi rama. Sin ninguna prisa.",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Faltan {remaining} palabras para la meta. Esperan.",
+      "emotion": "content"
+    }
+  ],
+  "writer.returning": [
+    {
+      "text": "{words} palabras en la despensa, todas donde las dejaste.",
+      "emotion": "happy"
+    },
+    {
+      "text": "Te quedaste en «{doc}». Sigue justo ahí.",
+      "emotion": "content"
+    },
+    {
+      "text": "Todo está donde lo dejaste. Lo he contado.",
+      "emotion": "proud"
+    }
+  ],
+  "findings.spell": [
+    {
+      "text": "Ortografía: una palabra marcada. ¿Te la enseño? | Ortografía: {count} palabras marcadas. ¿Te las enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Una palabra que el diccionario aún no conoce. ¿Quieres verla? | {count} palabras que el diccionario aún no conoce. ¿Quieres verlas?",
+      "emotion": "curious"
+    },
+    {
+      "text": "He contado una palabra marcada. Quizá un nombre. ¿Te la señalo? | He contado {count} palabras marcadas. Quizá nombres. ¿Te las señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.grammar": [
+    {
+      "text": "Revisión gramatical: una marca. ¿Te la enseño? | Revisión gramatical: {count} marcas. ¿Te las enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Una duda de gramática por aquí. ¿La miramos? | {count} dudas de gramática por aquí. ¿Las miramos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "La revisión gramatical marca un sitio. ¿Te lo señalo? | La revisión gramatical marca {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.repetition": [
+    {
+      "text": "«{lemma}» aparece {lemmaCount} veces. ¿Quieres ver dónde?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Cuento «{lemma}» {lemmaCount} veces. Quizá a propósito. ¿Te lo enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "«{lemma}» trabaja mucho: {lemmaCount} veces. ¿Quieres ver dónde?",
+      "emotion": "thinking"
+    },
+    {
+      "text": "Palabras repetidas: una marca. ¿Te la enseño? | Palabras repetidas: {count} marcas. ¿Te las enseño?",
+      "emotion": "neutral"
+    }
+  ],
+  "findings.rhyme": [
+    {
+      "text": "Rima accidental: una marca. ¿Te la enseño? | Rimas accidentales: {count} marcas. ¿Te las enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Una palabra rima con otra cercana. ¿Quieres verla? | {count} palabras riman con otras cercanas. ¿Quieres verlas?",
+      "emotion": "curious"
+    },
+    {
+      "text": "He encontrado una rima, quizá sin querer. ¿Te la señalo? | He encontrado {count} rimas, quizá sin querer. ¿Te las señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.multispace": [
+    {
+      "text": "Espacios múltiples: un sitio. ¿Te lo enseño? | Espacios múltiples: {count} sitios. ¿Te los enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Espacios de más en un sitio. Un barrido rápido. ¿Lo ves? | Espacios de más en {count} sitios. Un barrido rápido. ¿Los ves?",
+      "emotion": "content"
+    },
+    {
+      "text": "Dos espacios donde va uno: un sitio. ¿Te lo señalo? | Dos espacios donde va uno: {count} sitios. ¿Te los señalo?",
+      "emotion": "focused"
+    }
+  ],
+  "findings.structure:structure-skeleton": [
+    {
+      "text": "Estructura de oración repetida: un sitio. ¿Te lo enseño? | Estructura de oración repetida: {count} sitios. ¿Te los enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Frases con el mismo esqueleto, en un sitio. ¿Quieres verlo? | Frases con el mismo esqueleto, en {count} sitios. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "He contado una tanda de frases construidas igual. ¿Te la señalo? | He contado {count} tandas de frases construidas igual. ¿Te las señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-openings": [
+    {
+      "text": "Comienzos de oración idénticos: un sitio. ¿Te lo enseño? | Comienzos de oración idénticos: {count} sitios. ¿Te los enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Frases que empiezan igual, en un sitio. ¿Quieres verlo? | Frases que empiezan igual, en {count} sitios. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Las mismas primeras palabras, frase tras frase: un sitio. ¿Te lo señalo? | Las mismas primeras palabras, frase tras frase: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-length": [
+    {
+      "text": "Longitud de oración: un sitio. ¿Te lo enseño? | Longitud de oración: {count} sitios. ¿Te los enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Frases de la misma longitud, en un sitio. ¿Quieres verlo? | Frases de la misma longitud, en {count} sitios. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Frases iguales, como avellanas de un mismo tamaño: un sitio. ¿Te lo señalo? | Frases iguales, como avellanas de un mismo tamaño: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-adverb-pileup": [
+    {
+      "text": "Acumulación de adverbios: un sitio. ¿Te lo enseño? | Acumulación de adverbios: {count} sitios. ¿Te los enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Varios adverbios juntos, en un sitio. ¿Quieres verlo? | Varios adverbios juntos, en {count} sitios. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Adverbios amontonados: un sitio. ¿Te lo señalo? | Adverbios amontonados: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-nominal": [
+    {
+      "text": "Estilo nominal: un pasaje. ¿Te lo enseño? | Estilo nominal: {count} pasajes. ¿Te los enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Más sustantivos que verbos, en un pasaje. ¿Quieres verlo? | Más sustantivos que verbos, en {count} pasajes. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Muchos sustantivos y pocos verbos: un pasaje. ¿Te lo señalo? | Muchos sustantivos y pocos verbos: {count} pasajes. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-gerund-freq": [
+    {
+      "text": "Frecuencia de gerundios: un pasaje. ¿Te lo enseño? | Frecuencia de gerundios: {count} pasajes. ¿Te los enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Muchos gerundios juntos, en un pasaje. ¿Quieres verlo? | Muchos gerundios juntos, en {count} pasajes. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "He contado un racimo de formas en -ndo. ¿Te lo señalo? | He contado {count} racimos de formas en -ndo. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-adj-position": [
+    {
+      "text": "Posición de adjetivos: un sitio. ¿Te lo enseño? | Posición de adjetivos: {count} sitios. ¿Te los enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "El mismo orden de sustantivo y adjetivo, en un sitio. ¿Quieres verlo? | El mismo orden de sustantivo y adjetivo, en {count} sitios. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Sustantivo y adjetivo, frase tras frase: un sitio. ¿Te lo señalo? | Sustantivo y adjetivo, frase tras frase: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-ing-opener": [
+    {
+      "text": "Comienzos con -ing: un sitio. ¿Te lo enseño? | Comienzos con -ing: {count} sitios. ¿Te los enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Frases que arrancan con una forma en -ing, en un sitio. ¿Quieres verlo? | Frases que arrancan con una forma en -ing, en {count} sitios. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Un arranque en -ing tras otro: un sitio. ¿Te lo señalo? | Un arranque en -ing tras otro: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-stacked-prep": [
+    {
+      "text": "Preposiciones apiladas: un sitio. ¿Te lo enseño? | Preposiciones apiladas: {count} sitios. ¿Te los enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Preposiciones encadenadas, en un sitio. ¿Quieres verlo? | Preposiciones encadenadas, en {count} sitios. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Preposición tras preposición: un sitio. ¿Te lo señalo? | Preposición tras preposición: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-filter-word": [
+    {
+      "text": "Verbos filtro: uno marcado. ¿Te lo enseño? | Verbos filtro: {count} marcados. ¿Te los enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Un verbo de percepción entre el lector y la escena. ¿Quieres verlo? | {count} verbos de percepción entre el lector y la escena. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Vio, oyó, sintió: he contado un verbo filtro. ¿Te lo señalo? | Vio, oyó, sintió: he contado {count} verbos filtro. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-pro-drop": [
+    {
+      "text": "Pronombres sujeto explícitos: un sitio. ¿Te lo enseño? | Pronombres sujeto explícitos: {count} sitios. ¿Te los enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Frases que empiezan con pronombre sujeto, en un sitio. ¿Quieres verlo? | Frases que empiezan con pronombre sujeto, en {count} sitios. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "Yo, él, ella, a la vista: un sitio. ¿Te lo señalo? | Yo, él, ella, a la vista: {count} sitios. ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-as-clause": [
+    {
+      "text": "La comprobación de «as»: un sitio. ¿Te lo enseño? | La comprobación de «as»: {count} sitios. ¿Te los enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Más de un «as» en la misma frase, en un sitio. ¿Quieres verlo? | Más de un «as» en la misma frase, en {count} sitios. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "He contado una frase con varios «as» encadenados. ¿Te la señalo? | He contado {count} frases con varios «as» encadenados. ¿Te las señalo?",
+      "emotion": "thinking"
+    }
+  ],
+  "findings.structure:structure-but": [
+    {
+      "text": "La comprobación de «but»: un sitio. ¿Te lo enseño? | La comprobación de «but»: {count} sitios. ¿Te los enseño?",
+      "emotion": "neutral"
+    },
+    {
+      "text": "Varios «but» en un mismo párrafo, en un sitio. ¿Quieres verlo? | Varios «but» en un mismo párrafo, en {count} sitios. ¿Quieres verlos?",
+      "emotion": "curious"
+    },
+    {
+      "text": "He contado un párrafo que gira mucho sobre «but». ¿Te lo señalo? | He contado {count} párrafos que giran mucho sobre «but». ¿Te los señalo?",
+      "emotion": "thinking"
+    }
+  ]
+}
